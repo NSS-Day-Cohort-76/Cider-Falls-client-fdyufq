@@ -114,7 +114,7 @@ export const getServices = () => {
     return structuredClone(database.services)
 }
 
-export const getServiceAreaa = () => {
+export const getServiceArea = () => {
     return structuredClone(database.serviceArea)
 }
 
