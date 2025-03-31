@@ -1,4 +1,4 @@
-import { getGuests } from "./src/scripts/Database.js"
+import { getGuests } from "./Database.js"
 
 export const guestList = () => {
 const guests = getGuests();
