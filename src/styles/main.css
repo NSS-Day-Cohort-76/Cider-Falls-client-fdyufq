@@ -1,0 +1,44 @@
+main, header, footer {
+    display: flex;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    justify-content: space-between;
+}
+
+#title {
+    margin-right: auto;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+#logoImg {
+    max-width: 125px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+main {
+    margin-bottom: 75px;
+}
+#area__section {
+    display: flex;
+    border: 5px solid black;
+}
+
+#area__section {
+    border: 5px solid black;
+}
+
+.area {
+    border: 5px solid black;   
+}
