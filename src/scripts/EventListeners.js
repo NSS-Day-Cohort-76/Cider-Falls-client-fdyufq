@@ -1,3 +1,5 @@
+import { getGuests } from "./Database.js"
+
 export const areaEventListener = () => {
 document.addEventListener("click", 
     (clickEvent) => {
@@ -7,7 +9,7 @@ document.addEventListener("click",
             let guestCounter = 0
             const guests = getGuests()
             for (const guest of guests) {
-                if(parseInt(areaID) === guest.areaID) {
+                if(parseInt(areaID) === guest.areaId) {
                     guestCounter++
                 }
             }
