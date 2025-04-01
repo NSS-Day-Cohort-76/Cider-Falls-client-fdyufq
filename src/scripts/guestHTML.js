@@ -18,7 +18,7 @@ guestListHTML += "</ol>";
 return guestListHTML;
 
 };
-
+export const guestEventListener = () => {
 document.addEventListener("click", (clickEvent) => {
     const clickTarget = clickEvent.target;
 
@@ -49,4 +49,4 @@ document.addEventListener("click", (clickEvent) => {
             window.alert(`This guest is located in ${area.area}`);
         }
     }
-});
+});}

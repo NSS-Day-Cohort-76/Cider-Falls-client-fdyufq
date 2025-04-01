@@ -17,8 +17,8 @@ export const areaEventListener = () => {
                         count++
                     }
                 }
+                window.alert(`There are ${count} guests in this area.`)
             }
-            window.alert(`There are ${count} guests in this area.`)
         })
 
     }
