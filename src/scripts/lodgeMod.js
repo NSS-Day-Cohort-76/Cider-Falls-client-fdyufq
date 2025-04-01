@@ -12,7 +12,9 @@ export const lodgeHTML = () => {
         if (obj.areaId === 1)
             for (const service of services) {
                 if (service.id === obj.serviceId)
-                    serviceList.push(`<span data-id="${service.id}"> ${service.service}</span>`)
+                    serviceList.push(`<span 
+                data-name="${service.service}"
+                data-type="service" data-id="${service.id}"> ${service.service}</span>`)
             }
         
     }
