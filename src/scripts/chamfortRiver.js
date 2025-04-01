@@ -12,7 +12,8 @@ export const chamfortHTML = () => {
         if (obj.areaId === 3)
             for (const service of services) {
                 if (service.id === obj.serviceId)
-                    serviceList.push(`<span data-id="${service.id}"> ${service.service}</span>`)
+                    serviceList.push(`<span data-type="service" data-name="${service.service}"
+                data-id="${service.id}"> ${service.service}</span>`)
             }
         
     }
