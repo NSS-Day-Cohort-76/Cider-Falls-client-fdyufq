@@ -1,6 +1,6 @@
 import { getGuests } from "./Database.js"
 
-export const guestList = () => {
+export const guestHTML = () => {
 const guests = getGuests();
 let guestListHTML = `
     <h2>Current Park Guests</h2>
@@ -8,7 +8,7 @@ let guestListHTML = `
 
 for (const guest of guests) {
     guestListHTML += `
-            <li class="guest_names">
+            <li data-type="guest">
              ${guest.firstName} ${guest.lastName}
             </li>`;
 }
