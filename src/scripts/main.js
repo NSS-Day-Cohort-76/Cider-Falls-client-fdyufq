@@ -7,7 +7,7 @@ import { pineBluffsHTML } from "./pineBluffs.js";
 import { guestHTML } from "./guestHTML.js";
 import { serviceEventListener } from "./eventListeners.js";
 import { areaEventListener } from "./eventListeners.js";
-import { guestEventListener } from "./guestHTML.js";
+import { guestEventListener } from "./eventListeners.js";
 
 const lodgeSection = document.querySelector("#lodge")
 lodgeSection.innerHTML = lodgeHTML()
