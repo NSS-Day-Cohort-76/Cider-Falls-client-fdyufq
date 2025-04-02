@@ -17,6 +17,12 @@ header {
 main {
     flex: 1;
 }
+#service__list {
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+}
 
 h2 {margin: 3px 0px;}
 
