@@ -2,7 +2,7 @@ import { getServices, getServiceArea } from "./Database.js";
 
 
 export const lodgeHTML = () => {
-    let html=`<h2>Lodge</h2>
+    let html=`<h2 data-type="area" data-id="1">Lodge</h2>
     <h3>Beginner Trails Services: Food Vendors</h3>
     <div class="services__section"> Park services: `
     const serviceArea = getServiceArea()
