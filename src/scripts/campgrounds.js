@@ -12,11 +12,12 @@ export const campgroundsHTML = () => {
         if (obj.areaId === 5)
             for (const service of services) {
                 if (service.id === obj.serviceId)
-                    serviceList.push(service.service)
+                    serviceList.push(`<span data-type="service" data-name="${service.service}" 
+                data-id="${service.id}"> ${service.service}</span>`)
             }
         
     }
-    html += serviceList.join(", ")
+    html += `${serviceList.join(", ")}</div>`
     return html
 
 }

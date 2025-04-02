@@ -5,6 +5,9 @@ import { ganderHTML } from "./ganderRiver.JS";
 import { campgroundsHTML } from "./campgrounds.js";
 import { pineBluffsHTML } from "./pineBluffs.js";
 import { guestHTML } from "./guestHTML.js";
+import { serviceEventListener } from "./eventListeners.js";
+import { areaEventListener } from "./eventListeners.js";
+import { guestEventListener } from "./guestHTML.js";
 
 const lodgeSection = document.querySelector("#lodge")
 lodgeSection.innerHTML = lodgeHTML()
@@ -27,3 +30,6 @@ pineBluffsSection.innerHTML = pineBluffsHTML()
 const guestSection = document.querySelector("#guests__section")
 guestSection.innerHTML = guestHTML()
 
+serviceEventListener()
+areaEventListener()
+guestEventListener()
