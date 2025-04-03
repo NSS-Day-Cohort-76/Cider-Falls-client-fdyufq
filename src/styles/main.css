@@ -74,6 +74,8 @@ h1 {
     border: 2px solid black;
     text-align: center;
     padding: 8px;
-    height: fit-content;
     margin: 20px;
+    overflow-y: auto;
+    height: fit-content;
+    font-size: 18px;
 }
